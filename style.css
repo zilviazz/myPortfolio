@@ -107,24 +107,6 @@ header .navbar a:hover{
     display: none;
 }
 
-.cursor-1{
-    position: absolute;
-    top:0; left:0;
-    height:2rem; width:2rem;
-    border:.1rem solid var(--main-color);
-    pointer-events: none;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    z-index: 10000;
-}
-
-.cursor-1.active{
-    height:7rem;
-    width:7rem;
-    background: var(--main-color);
-    opacity: .3;
-}
-
 .home{
     display: flex;
     align-items: center;
@@ -528,10 +510,6 @@ footer .follow a:hover{
         left:0%;
         transition: all 1s;
         opacity: 1;
-    }
-
-    .cursor-1{
-        display: none;
     }
 
 }
